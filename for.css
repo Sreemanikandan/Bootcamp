@@ -1,0 +1,36 @@
+.forms{
+  border: solid ;
+padding: 20px;
+border-radius: 50px;
+border-color: #D3D3D3;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+width: 500px;
+align-items: center;
+margin: 0 auto;
+-webkit-box-shadow: 10px 15px 15px 10px #ccc;
+-moz-box-shadow:    10px 15px 10px 15px #ccc;
+box-shadow:         15px 15px 15px 10px #ccc;
+}
+
+.radius{
+  border-radius: 50px;
+  padding: 20px;
+  padding-left: 20px;
+  width: 200px;
+
+
+}
+
+.head{
+ text-align: center;
+  color: #0000ff;
+}
+.size{
+  vertical-align: middle;
+  margin-left: auto;
+  width: 250px;
+  height: 30px;
+  padding-left: 20px;
+}
