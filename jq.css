@@ -1,0 +1,20 @@
+.class1{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+background-color: grey;
+}
+.class2{
+  font-size: 50px;
+}
+.table{
+  text-align: center;
+  color: white;
+}
+.center{
+  background-color: green;
+  border-style: none;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 05px;
+}

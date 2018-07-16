@@ -1,0 +1,283 @@
+<!--<!doctype html>
+</html>
+<head>
+<title>JS</title>
+</head>
+<body>
+
+
+
+
+  <p id="para">The exchanges are the latest result of a diplomatic outreach to the South that Kim announced during his annual New Year's speech.</p>
+  <button type="button" id="but">Click</button>
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#but").click(function(){
+    $("#para").fadeOut();
+  })
+});
+
+</script>
+
+</body>
+</html>
+-->
+
+
+
+
+
+
+
+
+
+
+<!--<!doctype html>
+</html>
+<head>
+<title>JS</title>
+</head>
+<body>
+
+
+<div class="class1">
+  <p id="para1">The exchanges are the latest result of a diplomatic outreach to the South that Kim announced during his annual New Year's speech.</p>
+  <p id="para2">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+Other Related Proj</p>
+<p id="para3">jQuery is constantly tested with all of its supported browsers via unit tests. However, a web page using jQuery may not work in the same set of browsers if its own code takes advantage of (or falls prey to) browser-specific behaviors. Testing is essential to fully support a browser. The Microsoft Edge Developer site makes available virtual machines for testing many different versions of Internet Explorer. Older versions of other browsers can be found at oldversion.com.</p>
+
+</div>
+
+  <button type="button" id="but">Click</button>
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#but").click(function(){
+    $(".class1 p:eq(1)").css({"border": "2px solid #000"});
+  })
+});
+
+</script>
+
+</body>
+</html>
+-->
+
+
+
+
+
+
+<!--
+<!doctype html>
+</html>
+<head>
+  <link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
+<title>JS</title>
+</head>
+<body>
+
+
+<div class="class1">
+  <p id="para1">The exchanges are the latest result of a diplomatic outreach to the South that Kim announced during his annual New Year's speech.</p>
+  <p id="para2">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+Other Related Proj</p>
+<p id="para3">jQuery is constantly tested with all of its supported browsers via unit tests. However, a web page using jQuery may not work in the same set of browsers if its own code takes advantage of (or falls prey to) browser-specific behaviors. Testing is essential to fully support a browser. The Microsoft Edge Developer site makes available virtual machines for testing many different versions of Internet Explorer. Older versions of other browsers can be found at oldversion.com.</p>
+
+<img class="animated" id="image" src="1.jpg" alt="Italian">
+</div>
+
+  <button type="button" id="but">Click</button>
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script type="text/javascript">
+var i = 1;
+$(document).ready(function(){
+  $("#but").click(function(){
+    i++;
+    $("#image").attr("src", i+".jpg").addClass("flip");
+
+     if (i == 5) {
+    i = 0;
+    }
+  })
+});
+
+
+</script>
+
+</body>
+</html>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+  <link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="jq.css">
+<title>Login_Page</title>
+</head>
+<body>
+
+
+<div class="class1 container">
+  <br>
+  <h1 class="class2"><strong>Login</strong></h1>
+  <br>
+  <table class="table">
+    <tr>
+      <td>Age</td>
+      <td>:</td>
+      <td><input type="text" placeholder="Age" id="age" name="" value=""></td>
+    </tr>
+    <tr>
+      <br>
+      <td>Username</td>
+      <td>:</td>
+      <td><input type="text" placeholder="username" id="user" name="" value=""></td>
+    </tr>
+    <tr>
+      <br>
+      <td>Password</td>
+      <td>:</td>
+      <td><input type="password" placeholder="password" id="pass" name="" value=""></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><button class="center" type="button" id="but">Submit</button></td>
+    </tr>
+    </tr>
+  </table>
+
+    <br><br>
+    <br>
+    <br>
+    <br>
+
+
+</div>
+
+
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+
+<script type="text/javascript">
+
+var usercheck = function()
+{
+  var a = $("#user").val();
+  if (a.length < 3)
+  {
+  return true;
+  }
+  else
+  {
+    return false;
+  }
+
+}
+
+var passcheck = function()
+{
+  var a = $("#pass").val();
+  var b = 0;
+  for (var i = 0; i < a.length; i++)
+  {
+    if (a[i] === "$")
+    {
+      return false;
+       b = 1;
+    }
+  }
+  if (b == 0)
+  {
+    return true;
+  }
+}
+
+
+
+var agecheck = function(){
+  var a = $("#age").val();
+  if(isNaN(a))
+  {
+    return true;
+  }
+  else if (a)
+  {
+    return false;
+  }
+  else
+  {
+    return true;
+  }
+}
+
+
+$(document).ready(function()
+{
+  $("#but").click(function()
+  {
+    if (agecheck())
+    {
+      swal( {title: "Login Failed!",
+      text : "This field cannot be empty and should be a number",
+    icon: "warning"} );
+    }
+    else if (usercheck())
+    {
+      swal({title: "Login Failed!",
+       text: "username should have minimum 3 characters",
+    icon: "warning"} );
+    }
+    else if (passcheck())
+    {
+      swal( {title: "Login Failed!",
+      text :"password should have minimum a $ character",
+              icon :"warning"})
+    }
+    else {
+      swal( {title: "Login Success!",
+      text : "Congratulations",
+    icon: "success"} );
+    }
+
+
+  })
+});
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.boot{
+font-size: 70px;
+color: purple;
+}
+.size{
+  font-size: 30px;
+}
+.button{
+color: purple;
+}
+.button:hover{
+color: white;
+background-color: purple;
+}
